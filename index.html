@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keswick News</title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@1,100&family=Poppins:wght@100&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <div id="header">
+<div class="container">
+    <nav>
+       <img src="images/kcsnews.jpg" alt="logo" class="logo">
+       <ul id="sidemenu">
+        <li><a href="#header">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#sports">Sports</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <i class="fas fa-solid fa-square-xmark" onclick="closemenu()"></i>
+       </ul>
+       <i class="fas fa-solid fa-bars" onclick="openmenu()"></i>
+    </nav>
+    <div class="row"></div>
+    <div class="header-col1"></div>
+    <div class="header-text"></div>
+    <h1>Hi, I'm <span>Karson</span> Keswick-News Web Developer</h1>
+    <p><span> Tampa, Florida</span></p>
+    <div class="social-icons">
+        <a href="#" target="_blank"><i class="fa-solid fa-school"></i>"></i></a>
+        <a href="#" target="_blank"><i class="fa-brands fa-github"></i>"></i></a>
+        <a href="#" target="_blank"><i class="fa-solid fa-football"></i>"></i></a>
+        <a href="#" target="_blank"><i class="fa-brands fa-youtube"></i>"></i></a>
+    </div>
+    </div>
+    </div>
+    <div class="header-col2">
+        <img src="images/Phoenix Mascot Logo.png" alt="btm">
+    </div>
+        </div>
+    </div>
+</div>
+<!--about -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+<div class="about-col-1">
+    <video width="320" height="240" controls autoplay loop>
+        <source src="images/akeswick.mp4" type="video/mp4" alt="MP4 VIDEO">
+      </video>
+</div>
+<div class="about-col-2">
+<h1 class="sub-title">About Keswick 2023</h1>
+<p>Keswick Christian shhool prides itself on getting this far and acheiving greatness in adding Jesus Christ into children from a young age causing them to not fear, but accept Jesus Christ and know there is so much he has in store for them. The 2023 - 2024 theme for Keswick Christian is Fan the Flame where children learn about friendships and so much more about Jesus' never ending love. Take a look about whats happening at Keswick with Keswick News!</p>
+</div>
+
+<div class="tab-titles">
+    <p class="tab-links active-link" onClick="opentab('Home')">Home</p>
+    <p class="tab-links active-link" onClick="opentab('Events')">Events</p>
+    <p class="tab-links active-link" onClick="opentab('Sports')">Sports</p>
+        </div>
+        <div class="tab-contents active-tab" id="Home">
+            <ul>
+                <li><span>Keswick Worship</span><br>Keswick Chapel</li>
+                <li><span>Students</span><br>Stories of Faith</li>
+                <li><span>Keswick Sports</span><br>Next Games</li>
+            </ul>
+        </div>
+        <div class="tab-contents" id="events">
+            <ul>
+                <li><span>Keswick Sports</span><br>Wins and Losses</li>
+                <li><span>Keswick Events</span><br>Dances, No School Days, Fundraisers, ETC.</li>
+                <li><span>Chapel</span><br>Chapel Messages</li>
+            </ul>
+        </div>
+        <div class="tab-contents" id="sports">
+            <ul>
+                <li><span>Wins and Notices</span><br>Keswick Football</li>
+                <li><span>Students Perspectives</span><br>Keswick Volleyball</li>
+                <li><span>Keswick Sports</span><br>Keswick Coaches</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!--services-->
+<div id=""services>
+    <div class="container">
+        <h1 class="sub-title"> Keswick News Services </h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-microphone-lines" style="color: #bdffe0;"></i>
+                <h2>Share Your Story as an Audio</h2>
+                <p>Let God Be Heard. Dont Question It, Share How You Trusted Jesus and Took your Leap of Trust and Faith.</p>
+                <a href="#speak">Speak Here</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-link" style="color: #bdffe0;"></i>
+                <h2>Visit the Keswick Portal</h2>
+                <p>Learn more About Keswick!</p>
+                <a href="#portal">Enter Portal</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-cross" style="color: #bdffe0;"></i>
+                <h2>Let God's Work Be Heard, Share Here!</h2>
+                <p>Let God Be Heard. Dont Question It, Share How You Trusted Jesus and Took your Leap of Trust and Faith.</p>
+                <a href="#share">Share Here</a>
+            </div>
+    </div>
+</div>
+
+<!--share-->
+<div id="share">
+    <div class="container">
+        <h1 class="sub-title"> News and Topics </h1>
+        <div class="share-list">
+            <div class="share-item">
+                <img src="images/NoteMic.png" alt="...">
+                <div class="layer">
+                    <h3>Whats Happening in Middle School?</h3>
+                    <p>Check out whats happening in your grade!</p>
+                    <a href="#" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square" style="color: #000000;"></i></a>
+                </div>
+            </div>
+            <div class="share-item">
+                <img src="images/NoteMic.png" alt="...">
+                <div class="layer">
+                    <h3>Whats Happening in High School?</h3>
+                    <p>Check out whats happening in your grade!</p>
+                    <a href="#" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square" style="color: #000000;"></i></a>
+                </div>
+            </div>
+                <div class="share-item">
+                    <img src="images/NoteMic.png" alt="...">
+                    <div class="layer">
+                        <h3>Whats Happening in Elementary School?</h3>
+                        <p>Check out whats happening in your grade!</p>
+                        <a href="#" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square" style="color: #000000;"></i></a>
+                    </div>
+                </div>
+            </div>
+        <a href="#" target="_blank" class="btn"> See Story</a>
+    </div>
+</div>
+
+<!--Contact-->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title"> Share a Story </h1>
+                <p><i class="fa-solid fa-paper-plane"></i>EMAIL FILLER</p>
+                <p><i class="fa-solid fa-phone"></i>PHONE # FILLER</p>
+                <div class="social-icons">
+                    <a href="#" target="_blank"><i class="fa-solid fa-school"></i>"></i></a>
+                    <a href="#" target="_blank"><i class="fa-brands fa-github"></i>"></i></a>
+                    <a href="#" target="_blank"><i class="fa-solid fa-football"></i>"></i></a>
+                    <a href="#" target="_blank"><i class="fa-brands fa-youtube"></i>"></i></a>
+            
+                </div>
+                <a href="#" download class="btn btn2"> Download this Years Poster </a>
+                </div>
+            <div class="contact-right">
+                <form onsubmit="sendEmail(); reset(); return false;" name="">
+                    <input type="text" name="Name" placeholder="Enter Name Here" required>
+                    <input type="text" name="Email" placeholder="Enter Email Address Here" optional>
+                    <textarea name="Message" id="Message" rows="6" placeholder="Enter Your Message Here"></textarea>
+                    <button type="submit" class="btn btn2"> Share</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright &copy; Keswick - Keswick News &trade;</p>
+    </div>
+</div>
+
+<script src="js/script.js"></script>
+    <script src="https://kit.fontawesome.com/4dbbb1a50c.js" crossorigin="anonymous"></script>
+</body>
+</html>
